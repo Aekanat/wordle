@@ -141,7 +141,7 @@ class gameScreenState extends State<gameScreen> {
           message:
               'The word was ${_word}. Unfortunately, you lost the game. Better luck next time!',
           action: 'Try Again');
-    } else {
+    } else if(guess == ans){
       setState(() {
         _state = 7;
         showOkDialog(
