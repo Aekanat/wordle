@@ -130,7 +130,6 @@ class dataService extends StatelessWidget {
     "cranberry",
     "dragonfruit",
     "lychee",
-    "kiwi",
     "melon",
     "starfruit",
     "grapefruit",
